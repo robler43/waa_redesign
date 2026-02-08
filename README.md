@@ -1,4 +1,4 @@
-# BlockChain Club Website - v2.0
+# WAA Texas Tech website redesign
 
 > Version created: February 5, 2026
 
@@ -105,12 +105,12 @@ To add your custom logo:
 
 Open directly in browser:
 ```
-file:///Users/robinhoesli/Desktop/07_wealth_builders/02_waa_design_3_0/index.html
+open index.html
 ```
 
 Or serve locally:
 ```bash
-cd /Users/robinhoesli/Desktop/07_wealth_builders/02_waa_design_3_0
+# Navigate to the project directory
 python3 -m http.server 8000
 # Open http://localhost:8000
 ```
