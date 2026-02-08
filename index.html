@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Join the leading blockchain school club. Learn, build, and connect with Web3 enthusiasts. Workshops, hackathons, and community events.">
+    <title>WAA | Building Web3 Leaders of Tomorrow</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- ============ HEADER ============ -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <span class="logo-icon">
+                    <!-- Replace with your logo image -->
+                    <img src="02_graphics/logo.png" alt="WAA Logo"
+                        onerror="this.style.display='none'; this.parentElement.innerHTML='<i data-lucide=\'link\'></i>';">
+                </span>
+            </a>
+
+            <nav class="nav" id="nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#features" class="nav-link">What We Offer</a>
+                <a href="#showcase" class="nav-link">Projects</a>
+                <a href="#activities" class="nav-link">Activities</a>
+                <a href="#events" class="nav-link">Events</a>
+                <a href="mailto:ttu.waa@gmail.com" class="nav-link">Contact Us</a>
+            </nav>
+
+            <div class="header-right">
+                <a href="members.html" class="nav-link members-link">Members</a>
+                <a href="#join" class="btn btn-primary join-header-btn">Join Us</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-tagline">Empowering the next generation of Web3 builders</span>
+
+                <h1 class="hero-title">
+                    <span class="line">Building</span>
+                    <span class="line"><span class="highlight">Web3</span> <span
+                            class="highlight-accent">Leaders</span></span>
+                    <span class="line">of Tomorrow</span>
+                </h1>
+
+                <p class="hero-description">
+                    Join a community of students passionate about blockchain technology,
+                    decentralized systems, and the future of the internet.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#join" class="btn btn-primary">Join the Club</a>
+                    <a href="#about" class="btn btn-outline">Learn More →</a>
+                </div>
+            </div>
+
+            <!-- Hero Character -->
+            <div class="hero-character" id="heroCharacter">
+                <img src="02_graphics/character2.png" alt="WAA Character">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PARTNERS MARQUEE ============ -->
+    <section class="partners">
+        <div class="container">
+            <p class="partners-title">Supported by industry leaders & academic partners</p>
+        </div>
+        <div class="marquee">
+            <div class="marquee-content">
+                <a href="https://www.eigenlayer.xyz/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/eigenlayer.png" alt="EigenLayer"></a>
+                <a href="https://www.ledger.com/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/Ledger.png" alt="Ledger"></a>
+                <a href="https://www.coinbase.com/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/coinbase-n1uqsabsnpviwyq79i85 (1).png" alt="Coinbase"></a>
+                <a href="https://college.xyz/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/collegexyz.png" alt="College.xyz"></a>
+                <a href="https://www.gemini.com/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/Gemini-Logo.png" alt="Gemini"></a>
+                <a href="https://zora.co/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/zora-tm-black.svg" alt="Zora"></a>
+                <a href="https://www.depts.ttu.edu/coe/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/coe-logo.jpg" alt="Texas Tech Whitacre College of Engineering"></a>
+            </div>
+            <!-- Duplicate for infinite scroll -->
+            <div class="marquee-content" aria-hidden="true">
+                <a href="https://www.eigenlayer.xyz/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/eigenlayer.png" alt="EigenLayer"></a>
+                <a href="https://www.ledger.com/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/Ledger.png" alt="Ledger"></a>
+                <a href="https://www.coinbase.com/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/coinbase-n1uqsabsnpviwyq79i85 (1).png" alt="Coinbase"></a>
+                <a href="https://college.xyz/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/collegexyz.png" alt="College.xyz"></a>
+                <a href="https://www.gemini.com/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/Gemini-Logo.png" alt="Gemini"></a>
+                <a href="https://zora.co/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/zora-tm-black.svg" alt="Zora"></a>
+                <a href="https://www.depts.ttu.edu/coe/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/coe-logo.jpg" alt="Texas Tech Whitacre College of Engineering"></a>
+            </div>
+            <!-- Third Duplicate for wider screens -->
+            <div class="marquee-content" aria-hidden="true">
+                <a href="https://www.eigenlayer.xyz/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/eigenlayer.png" alt="EigenLayer"></a>
+                <a href="https://www.ledger.com/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/Ledger.png" alt="Ledger"></a>
+                <a href="https://www.coinbase.com/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/coinbase-n1uqsabsnpviwyq79i85 (1).png" alt="Coinbase"></a>
+                <a href="https://college.xyz/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/collegexyz.png" alt="College.xyz"></a>
+                <a href="https://www.gemini.com/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/Gemini-Logo.png" alt="Gemini"></a>
+                <a href="https://zora.co/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/zora-tm-black.svg" alt="Zora"></a>
+                <a href="https://www.depts.ttu.edu/coe/" target="_blank" class="marquee-logo"><img
+                        src="02_graphics/logos/coe-logo.jpg" alt="Texas Tech Whitacre College of Engineering"></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ============ USE CASES ============ -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="spaced-text">Our Focus Areas</p>
+                <h2>Exploring the Frontiers of Decentralization</h2>
+            </div>
+
+            <div class="compass-container reveal" id="compassContainer">
+                <!-- Compass Needle (Center) -->
+                <div class="compass-needle-wrapper" id="compassNeedleWrapper">
+                    <div class="compass-needle" id="compassNeedle">
+                        <div class="needle-point"></div>
+                        <div class="needle-tail"></div>
+                    </div>
+                    <div class="compass-center"></div>
+                </div>
+
+                <!-- North - DeFi & Trading -->
+                <div class="compass-topic north" data-direction="north">
+                    <img src="02_graphics/focus-defi.png" alt="DeFi & Trading illustration" class="compass-topic-image">
+                    <h4>DeFi & Trading</h4>
+                    <p>Explore decentralized finance protocols, liquidity pools, and algorithmic trading strategies.</p>
+                </div>
+
+                <!-- East - Smart Contracts -->
+                <div class="compass-topic east" data-direction="east">
+                    <img src="02_graphics/focus-contracts.png" alt="Smart Contracts illustration"
+                        class="compass-topic-image">
+                    <h4>Smart Contracts</h4>
+                    <p>Learn Solidity, Move, and Rust to build secure and efficient on-chain applications.</p>
+                </div>
+
+                <!-- South - NFTs & Gaming -->
+                <div class="compass-topic south" data-direction="south">
+                    <img src="02_graphics/focus-nft.png" alt="NFTs & Gaming illustration" class="compass-topic-image">
+                    <h4>NFTs & Gaming</h4>
+                    <p>Create digital collectibles, explore GameFi, and understand token economics.</p>
+                </div>
+
+                <!-- West - Research & Education -->
+                <div class="compass-topic west" data-direction="west">
+                    <img src="02_graphics/focus-research.png" alt="Research & Education illustration"
+                        class="compass-topic-image">
+                    <h4>Research & Education</h4>
+                    <p>Publish papers, host seminars, and contribute to blockchain academic discourse.</p>
+                </div>
+
+                <!-- Compass Ring (decorative) -->
+                <div class="compass-ring"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="section features" id="features">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="spaced-text">What We Offer</p>
+                <h2>Empowering Your Blockchain Journey</h2>
+                <p>From beginner workshops to advanced hackathons, we provide everything you need to succeed in Web3.
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="card feature-card reveal">
+                    <div class="feature-icon"><i data-lucide="book-open"></i></div>
+                    <h3>Learn</h3>
+                    <p>Structured workshops covering blockchain fundamentals, smart contracts, and DeFi protocols.</p>
+                </div>
+
+                <div class="card feature-card reveal">
+                    <div class="feature-icon"><i data-lucide="hammer"></i></div>
+                    <h3>Build</h3>
+                    <p>Hands-on project experience building real dApps and contributing to open source.</p>
+                </div>
+
+                <div class="card feature-card reveal">
+                    <div class="feature-icon"><i data-lucide="users"></i></div>
+                    <h3>Connect</h3>
+                    <p>Network with industry professionals, founders, and fellow enthusiasts.</p>
+                </div>
+
+                <div class="card feature-card reveal">
+                    <div class="feature-icon"><i data-lucide="coins"></i></div>
+                    <h3>Earn</h3>
+                    <p>Win hackathon prizes, discover bounties, and land internships at top Web3 companies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PRODUCT SHOWCASE SLIDESHOW ============ -->
+    <section class="section showcase" id="showcase">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="spaced-text">Member Projects</p>
+                <h2>Built by Our Community</h2>
+                <p>Explore applications and products developed by our talented members.</p>
+            </div>
+        </div>
+
+        <div class="showcase-slider">
+            <div class="showcase-wrapper">
+                <div class="showcase-track" id="showcaseTrack">
+                    <!-- Project 1 -->
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="gamepad-2"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">GameFi</span>
+                            <h4 class="showcase-title">ChainQuest RPG</h4>
+                            <p class="showcase-author">by Alex & Team</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+
+                    <!-- Project 2 -->
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="arrow-left-right"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">DeFi</span>
+                            <h4 class="showcase-title">SwapFlow DEX</h4>
+                            <p class="showcase-author">by Sarah Park</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+
+                    <!-- Project 3 -->
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="palette"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">NFT</span>
+                            <h4 class="showcase-title">ArtBlock Studio</h4>
+                            <p class="showcase-author">by Marcus J.</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+
+                    <!-- Project 4 -->
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="vote"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">DAO</span>
+                            <h4 class="showcase-title">GovChain Voting</h4>
+                            <p class="showcase-author">by DAO Squad</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+
+                    <!-- Project 5 -->
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="shield-check"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">Security</span>
+                            <h4 class="showcase-title">AuditPro Scanner</h4>
+                            <p class="showcase-author">by Security Team</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+
+                    <!-- Project 6 -->
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="bar-chart-2"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">Analytics</span>
+                            <h4 class="showcase-title">ChainMetrics</h4>
+                            <p class="showcase-author">by Data Wizards</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+
+                    <!-- Duplicates for infinite scroll -->
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="gamepad-2"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">GameFi</span>
+                            <h4 class="showcase-title">ChainQuest RPG</h4>
+                            <p class="showcase-author">by Alex & Team</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="arrow-left-right"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">DeFi</span>
+                            <h4 class="showcase-title">SwapFlow DEX</h4>
+                            <p class="showcase-author">by Sarah Park</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="palette"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">NFT</span>
+                            <h4 class="showcase-title">ArtBlock Studio</h4>
+                            <p class="showcase-author">by Marcus J.</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="vote"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">DAO</span>
+                            <h4 class="showcase-title">GovChain Voting</h4>
+                            <p class="showcase-author">by DAO Squad</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="shield-check"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">Security</span>
+                            <h4 class="showcase-title">AuditPro Scanner</h4>
+                            <p class="showcase-author">by Security Team</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="showcase-item" target="_blank">
+                        <div class="showcase-image"><i data-lucide="bar-chart-2"></i></div>
+                        <div class="showcase-content">
+                            <span class="showcase-tag">Analytics</span>
+                            <h4 class="showcase-title">ChainMetrics</h4>
+                            <p class="showcase-author">by Data Wizards</p>
+                            <span class="showcase-link">View Project →</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="showcase-nav prev" aria-label="Previous project">
+                <i data-lucide="chevron-left"></i>
+            </button>
+            <button class="showcase-nav next" aria-label="Next project">
+                <i data-lucide="chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+
+
+    <!-- ============ ACTIVITIES TABS ============ -->
+    <section class="section activities" id="activities">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="spaced-text">Club Activities</p>
+                <h2>Something for Everyone</h2>
+            </div>
+
+            <div class="tabs reveal">
+                <button class="tab-btn active" data-tab="workshops">Workshops</button>
+                <button class="tab-btn" data-tab="hackathons">Hackathons</button>
+                <button class="tab-btn" data-tab="talks">Guest Talks</button>
+                <button class="tab-btn" data-tab="socials">Social Events</button>
+            </div>
+
+            <div class="tab-content active" id="workshops">
+                <div class="activity-showcase">
+                    <div class="activity-image"><img src="02_graphics/workshop.jpg" alt="Workshop session"></div>
+                    <div class="activity-info">
+                        <h3>Weekly Workshops</h3>
+                        <p>Every week, we host hands-on workshops covering topics from blockchain basics to advanced
+                            DeFi protocols. Whether you're just starting or looking to deepen your expertise, there's
+                            always something new to learn.</p>
+                        <div class="activity-stats">
+                            <div class="stat">
+                                <span class="stat-value" data-target="50" data-suffix="+">0</span>
+                                <span class="stat-label">Workshops/Year</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" data-target="200" data-suffix="+">0</span>
+                                <span class="stat-label">Active Members</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" data-target="15" data-suffix="+">0</span>
+                                <span class="stat-label">Topics Covered</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="hackathons">
+                <div class="activity-showcase">
+                    <div class="activity-image"><img src="02_graphics/hackathon.jpg" alt="Hackathon winners"></div>
+                    <div class="activity-info">
+                        <h3>Hackathons & Competitions</h3>
+                        <p>Compete in major blockchain hackathons worldwide. Our teams have won prizes at ETHGlobal,
+                            Solana Breakpoint, and more. We provide mentorship, bounty hunting guidance, and team
+                            formation support.</p>
+                        <div class="activity-stats">
+                            <div class="stat">
+                                <span class="stat-value" data-target="50" data-prefix="$" data-suffix="K+">$0</span>
+                                <span class="stat-label">Prizes Won</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" data-target="20" data-suffix="+">0</span>
+                                <span class="stat-label">Hackathons</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" data-target="12">0</span>
+                                <span class="stat-label">Winning Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="talks">
+                <div class="activity-showcase">
+                    <div class="activity-image"><img src="02_graphics/guest_speak.jpg" alt="Guest speaker event"></div>
+                    <div class="activity-info">
+                        <h3>Industry Guest Talks</h3>
+                        <p>Learn directly from founders, developers, and investors building the future of Web3. Past
+                            speakers include team members from Ethereum, Solana, and leading DeFi protocols.</p>
+                        <div class="activity-stats">
+                            <div class="stat">
+                                <span class="stat-value" data-target="30" data-suffix="+">0</span>
+                                <span class="stat-label">Guest Speakers</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" data-target="10">0</span>
+                                <span class="stat-label">Unicorn Founders</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" data-target="5">0</span>
+                                <span class="stat-label">VCs Visited</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="socials">
+                <div class="activity-showcase">
+                    <div class="activity-image"><img src="02_graphics/social.jpg" alt="Social event"></div>
+                    <div class="activity-info">
+                        <h3>Social & Networking Events</h3>
+                        <p>Build lasting friendships with fellow blockchain enthusiasts. From casual game nights to
+                            conference after-parties, we create spaces for meaningful connections.</p>
+                        <div class="activity-stats">
+                            <div class="stat">
+                                <span class="stat-value">Monthly</span>
+                                <span class="stat-label">Social Events</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" data-target="5">0</span>
+                                <span class="stat-label">Conferences</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">∞</span>
+                                <span class="stat-label">Connections</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ X UPDATES ============ -->
+    <section class="section" id="updates">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="spaced-text">Latest Updates</p>
+                <h2>Fresh from the Feed</h2>
+            </div>
+
+            <div class="updates-container"
+                style="display: flex; justify-content: center; flex-direction: column; align-items: center; gap: 32px;">
+                <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank"
+                        class="crt-logo crt-tag">Powered by Curator.io</a></div>
+
+                <div class="updates-btn-container">
+                    <a href="https://x.com/ttu_waa" target="_blank" class="btn btn-outline">
+                        View More on <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                            fill="currentColor" stroke="none" class="lucide lucide-x-logo"
+                            style="vertical-align: middle; margin-bottom: 2px;">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg> <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        /* curator-feed-default-feed-layout */
+        (function () {
+            var i, e, d = document, s = "script"; i = d.createElement("script"); i.async = 1; i.charset = "UTF-8";
+            i.src = "https://cdn.curator.io/published/c09a17ac-1f1a-4020-aa9a-f117fb683ba6.js";
+            e = d.getElementsByTagName(s)[0]; e.parentNode.insertBefore(i, e);
+        })();
+    </script>
+
+    <!-- ============ EVENTS ============ -->
+    <section class="section events" id="events">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="spaced-text">Calendar</p>
+                <h2>Events</h2>
+            </div>
+
+            <iframe src="https://luma.com/embed/calendar/cal-G1ZxPHJzz4H3U2C/events" width="100%" height="600"
+                frameborder="0" style="border: 1px solid var(--color-border); border-radius: 12px;" allowfullscreen=""
+                aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+
+    <!-- ============ COMMUNITY CTA ============ -->
+    <section class="section" id="community">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="spaced-text">Get Involved</p>
+                <h2>Join the Community</h2>
+            </div>
+
+            <div class="community-grid">
+                <div class="card community-card reveal">
+                    <div class="community-icon"><i data-lucide="message-circle"></i></div>
+                    <h3>Join our Discord</h3>
+                    <p>Connect with 500+ members, get help with projects, and stay updated.</p>
+                    <a href="https://discord.com/invite/EhPe7nPTwc" target="_blank" class="btn btn-outline">Join
+                        Discord</a>
+                </div>
+
+                <div class="card community-card reveal">
+                    <div class="community-icon"><i data-lucide="calendar"></i></div>
+                    <h3>Attend a Meeting</h3>
+                    <p>We meet every Monday at 5:30 PM. First-timers always welcome!</p>
+                    <a href="#events" class="btn btn-outline">See Schedule</a>
+                </div>
+
+                <div class="card community-card reveal">
+                    <div class="community-icon"><i data-lucide="x"></i></div>
+                    <h3>Follow on <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor" stroke="none" class="lucide lucide-x-logo"
+                            style="vertical-align: middle; margin-bottom: 4px;">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg></h3>
+                    <p>Get the latest Web3 news, memes, and club announcements.</p>
+                    <a href="https://x.com/ttu_waa" target="_blank" class="btn btn-outline">Follow Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer" id="join">
+        <!-- Animated Pixel Blocks -->
+        <div class="footer-pixels" id="footerPixels">
+            <!-- Pixels will be generated by JavaScript -->
+        </div>
+
+        <div class="container">
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <!-- Left Column: Mascot only -->
+                <div class="footer-mascot">
+                    <div class="mascot-image"><img src="02_graphics/mascot.png" alt="Mascot"></div>
+                    <div class="mascot-bubble">Let's Build!</div>
+                </div>
+
+                <!-- Right Column: Links + Newsletter -->
+                <div class="footer-right-column">
+                    <!-- Footer Links -->
+                    <div class="footer-links-grid">
+                        <div class="footer-column">
+                            <h4>Discover</h4>
+                            <div class="footer-links">
+                                <a href="#about" class="footer-link">About WAA</a>
+                                <a href="#features" class="footer-link">What We Offer</a>
+                                <a href="#events" class="footer-link">Schedule</a>
+                                <a href="#events" class="footer-link">Events</a>
+                                <a href="#" class="footer-link">Blog</a>
+                                <a href="mailto:ttu.waa@gmail.com" class="footer-link">Contact Us</a>
+                            </div>
+                        </div>
+
+                        <div class="footer-column">
+                            <h4>Build</h4>
+                            <div class="footer-links">
+                                <a href="#showcase" class="footer-link">Projects</a>
+                                <a href="#" class="footer-link">Request for Proposals</a>
+                                <a href="#" class="footer-link">Docs <span class="external-icon">↗</span></a>
+                                <a href="#" class="footer-link">GitHub <span class="external-icon">↗</span></a>
+                            </div>
+                        </div>
+
+                        <div class="footer-column">
+                            <h4>Join</h4>
+                            <div class="footer-links">
+                                <a href="#community" class="footer-link">Community</a>
+                                <a href="https://x.com/ttu_waa" target="_blank" class="footer-link">X <span
+                                        class="external-icon">↗</span></a>
+                                <a href="https://discord.com/invite/EhPe7nPTwc" target="_blank"
+                                    class="footer-link">Discord <span class="external-icon">↗</span></a>
+                            </div>
+                        </div>
+
+                        <div class="footer-column">
+                            <h4>About</h4>
+                            <div class="footer-links">
+                                <a href="members.html" class="footer-link">Members</a>
+                                <a href="mailto:info@waa.club" class="footer-link">Contact Us</a>
+                                <a href="#" class="footer-link">Support the club</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Section -->
+                    <div class="footer-newsletter">
+                        <div class="newsletter-container">
+                            <h3 class="newsletter-title">Sign Up For Updates</h3>
+                            <form class="newsletter-form" onsubmit="event.preventDefault();">
+                                <input type="email" class="newsletter-input" placeholder="Your email address...">
+                                <label class="newsletter-checkbox">
+                                    <input type="checkbox">
+                                    I agree to receiving marketing communications from WAA
+                                </label>
+                                <button type="submit" class="newsletter-submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Footer Bottom -->
+                    <div class="footer-bottom">
+                        <p>© 2026 WAA. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============ JOIN US MODAL ============ -->
+    <div class="modal-overlay" id="joinModal">
+        <div class="modal-container" style="display: flex; padding: 0; overflow: hidden; max-width: 800px; width: 90%;">
+            <button class="modal-close" id="closeModal"
+                style="z-index: 10; color: var(--color-text-primary);">×</button>
+
+            <!-- Left Column: Image -->
+            <div class="modal-left" style="flex: 1; min-height: 400px; position: relative;">
+                <img src="02_graphics/min_membership.png" alt="Membership Card"
+                    style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            </div>
+
+            <!-- Right Column: Content -->
+            <div class="modal-right"
+                style="flex: 1; padding: var(--space-8); display: flex; flex-direction: column; justify-content: center;">
+                <div class="modal-header" style="text-align: left; margin-bottom: var(--space-4);">
+                    <div class="modal-icon" style="margin: 0 0 var(--space-4) 0;">
+                        <i data-lucide="gem"></i>
+                    </div>
+                    <h3>Mint Membership</h3>
+                    <div class="modal-status">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Network Synced</span>
+                    </div>
+                </div>
+
+                <div class="modal-body">
+                    <p style="text-align: left;">Join the whitelist for exclusive drops, event invites, and alpha.</p>
+
+                    <form class="join-form" id="joinForm">
+                        <div class="input-group">
+                            <span class="input-prefix">></span>
+                            <input type="email" placeholder="enter_email_address..." required>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="mintBtn">
+                            <span class="btn-text">JOIN THE MOVEMENT</span>
+                            <span class="btn-loading hidden"><i data-lucide="loader-2" class="spin"></i>
+                                Processing...</span>
+                        </button>
+                    </form>
+
+                    <div class="modal-footer-text" style="text-align: left;">
+                        <p>0x74...f44e • ERC-721 • WAA Chain</p>
+                    </div>
+                </div>
+
+                <!-- Success Message (Hidden by default) -->
+                <div class="modal-success hidden" id="modalSuccess">
+                    <div class="success-icon">
+                        <i data-lucide="check-circle"></i>
+                    </div>
+                    <h3>Transaction Confirmed!</h3>
+                    <p>check your inbox for the contract details.</p>
+                    <div class="hash-display">
+                        Tx: 0x7f...3a9c
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
